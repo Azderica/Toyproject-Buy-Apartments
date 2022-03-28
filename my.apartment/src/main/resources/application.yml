@@ -1,0 +1,10 @@
+
+url:
+  apartment-sales: "http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcAptTrade?_wadl&type=xml"
+  apartment-detail-sales: "http://openapi.molit.go.kr/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcAptTradeDev?_wadl&type=xml"
+  apartment-rent: "http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcAptRent?_wadl&type=xml"
+  apartment-resale-right: "http://openapi.molit.go.kr/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc"
+
+service-key:
+  encoding: "lcwJO5TpDubkzMOT%2Bzo623QJO5O232P9DwqbbV7OJbPbSPhjcCuaR6CgAKF7vUDTIAL6hNOdJcWNwBw5Dhe%2Blw%3D%3D"
+  decoding: "lcwJO5TpDubkzMOT+zo623QJO5O232P9DwqbbV7OJbPbSPhjcCuaR6CgAKF7vUDTIAL6hNOdJcWNwBw5Dhe+lw=="

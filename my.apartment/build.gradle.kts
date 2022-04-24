@@ -18,11 +18,13 @@ repositories {
 }
 
 dependencies {
+	/* feign clien */
+	implementation("org.springframework.cloud:spring-cloud-starter-openfeign")
+
 	implementation("org.springframework.boot:spring-boot-starter:2.6.5")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	implementation("org.springdoc:spring-boot-springdoc:3.1.2")
-	implementation("org.springframework.cloud:spring-cloud-starter-openfeign")
     testImplementation("org.springframework.boot:spring-boot-starter-test:2.6.5")
 }
 

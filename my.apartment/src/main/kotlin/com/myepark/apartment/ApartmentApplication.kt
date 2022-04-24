@@ -9,5 +9,5 @@ import org.springframework.cloud.openfeign.EnableFeignClients
 class ApartmentApplication
 
 fun main(args: Array<String>) {
-	runApplication<ApartmentApplication>(*args)
+    runApplication<ApartmentApplication>(*args)
 }

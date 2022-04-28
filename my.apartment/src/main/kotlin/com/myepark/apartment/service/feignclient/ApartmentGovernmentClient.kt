@@ -12,7 +12,7 @@ import org.springframework.cloud.openfeign.FeignClient
 import org.springframework.web.bind.annotation.GetMapping
 
 @FeignClient
-interface ApartmentGovernmentApi {
+interface ApartmentGovernmentClient {
 
     @GetMapping("\${url.apartment-sales}")
     fun getApartmentRent(req: ApartmentRentRequest): ApartmentRentResponse

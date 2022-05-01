@@ -1,4 +1,4 @@
-package com.myepark.apartment.service.openapi
+package com.myepark.apartment.service.feignclient
 
 import com.myepark.apartment.model.request.ApartmentRentRequest
 import com.myepark.apartment.model.request.ApartmentResaleRightRequest
@@ -11,7 +11,7 @@ import com.myepark.apartment.model.response.ApartmentSalesResponse
 import org.springframework.cloud.openfeign.FeignClient
 import org.springframework.web.bind.annotation.GetMapping
 
-@FeignClient
+@FeignClient(name = "apartment-government-openapi")
 interface ApartmentGovernmentClient {
 
     @GetMapping("\${url.apartment-sales}")

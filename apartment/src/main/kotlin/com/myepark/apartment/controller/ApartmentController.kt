@@ -9,10 +9,4 @@ import org.springframework.web.bind.annotation.ResponseBody
 @Controller
 class ApartmentController {
 
-    @GetMapping("/health")
-    @ResponseBody
-    fun getHealth(): String {
-        return "{health: up}";
-    }
-
 }

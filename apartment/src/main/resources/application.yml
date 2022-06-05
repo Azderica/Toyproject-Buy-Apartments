@@ -1,3 +1,8 @@
+management:
+  endpoints:
+    health :
+      show-details: always
+
 url:
   apartment-sales: "http://openapi.molit.go.kr:8081/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcAptTrade?_wadl&type=xml"
   apartment-detail-sales: "http://openapi.molit.go.kr/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcAptTradeDev?_wadl&type=xml"
